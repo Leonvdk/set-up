@@ -18,6 +18,7 @@ function App() {
             <Route path="/membership" component={Membership} />
             <Route path="/profile" component={Profile} />
             <Route path="/profile/edit" component={EditProfile}/>
+            
         </Switch>
         <BottomNav />
     </div>
